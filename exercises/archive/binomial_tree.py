@@ -1,8 +1,4 @@
-"""
-Id:             binomial_tree.py
-Copyright:      2018 xiaokang.guan All rights reserved.
-Description:    Binomial Tree model utility functions.
-"""
+# Binomial Tree model utility functions.
 
 import numpy as np
 

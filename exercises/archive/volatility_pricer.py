@@ -11,18 +11,6 @@ from black_scholes import blackScholesSolveImpliedVol
 
 
 class VolatilityPricer():
-    """
-    Realized vol:
-    Same as Black-Scholes, we assume the underlying follows a Geometric Brownian Motion.
-    Then its log return follows a Normal distribution, with mean as 0.
-    We take as input the historical daily underlying prices.
-    Annualization factor is 252.
-    Degree of Freedom is 0 as we are calculating the exact realized vol for the given historical period.
-
-    Implied vol:
-    Use Black-Scholes to back out the implied volatility from the given market option price.
-
-    """
 
     def __init__(self):
         self.historicalDataBySymbol = dict()

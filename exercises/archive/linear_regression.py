@@ -1,9 +1,3 @@
-"""
-Id:             linear_regression.py
-Copyright:      2018 xiaokang.guan All rights reserved.
-Description:    Linear Regression example using sklearn.
-"""
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

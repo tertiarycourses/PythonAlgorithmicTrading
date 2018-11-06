@@ -1,8 +1,4 @@
-"""
-Id:             black_scholes.py
-Copyright:      2018 xiaokang.guan All rights reserved.
-Description:    Black-Scholes utility functions.
-"""
+# Black Scholes model utility functions
 
 import numpy as np
 import math

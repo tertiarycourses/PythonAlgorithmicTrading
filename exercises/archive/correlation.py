@@ -1,9 +1,3 @@
-"""
-Id:             correlation.py
-Copyright:      2018 xiaokang.guan All rights reserved.
-Description:    Utility functions for correlations.
-"""
-
 import pandas as pd
 from data_hub import DataHub
 import datetime
